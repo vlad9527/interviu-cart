@@ -1,3 +1,11 @@
+--- Start: Comments ---
+
+➕ S-a refactorizat printr-o arhitectura MVC. Logica de business se regaseste in controllers/CartController, iar models/CartModel doar manageriaza fluxul de date.
+➕ Afisarea a fost mutata intr-un view - views/cart.php, nu este ceva wow, but it works.
+➕ S-a adaugat si un ErrorHandler pentru tratarea diverselor erori.
+
+--- End: Comments ---
+
 # Cod pentru interviu - problema pentru acasa
 
 A se vedea fisierele index.php si Cart.php
